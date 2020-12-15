@@ -506,6 +506,9 @@
     * Continuous Improvement
 * Risk Analysis
   * Process of achieving risk management goals
+  * For any Risk analysis we need to identify our assets. What are we protecting?
+      * Qualitative Risk Analysis – How likely is it to happen and how bad is it if it happens? This is vague, guessing, a feeling and relatively quick to do. Most often done to know where to focus the Quantitative Risk Analysis.
+      * Quantitative Risk Analysis – What will it actually cost us in $? This is fact based analysis, Total $ value of asset, math is involved.
   * Steps
     * Identifying risk
     * Evaluating risk
@@ -584,14 +587,18 @@
     * Can be based on cost to develop or replace, market value, etc.
   * Threats
     * Undesirable occurences that can damage assets
+    * A potentially harmful incident (Tsunami, Earthquake, Virus, … )
   * Threat Agents
     * Sources of threats
+  * Vulnerability
+    * A weakness that can allow the Threat to do harm. Having a Data Center in the Tsunami flood area, not Earthquake resistant, not applying patches and anti virus, …
   * Exposure
     * Possibility of threat realization
     * Exposure is equivalent to risk
   * Risk
     * Possibility of threat realization
     * risk = threat * vulnerability
+    * Impact – Can at times be added to give a more full picture => Risk = Threat x Vulnerability x Impact (How bad is it?).
   * Safeguards / Countermeasure
     * Things or acts that reduce a threat or vulnerability
     * Safeguard
@@ -607,12 +614,12 @@
     * State where threat agent has access to organization's infrastructure
   * Total Risk
     * Risk that organization faces without safeguards
-    * Total Risk = Threat * Vulnerabilities
+    * Total Risk = Threat * Vulnerabilities * Asset Value
   * Residual Risk
     * Risk that remains after countermeasures are implemented
     * Risk that management has chosen to accept
-    * Residual Risk = Total Risk - Control Gap
-    * Control Gap: Amount of risk reduced by controls
+    * Residual Risk = Total Risk - Control Gap (Countermeasures)
+    * Control Gap (Countermeasures): Amount of risk reduced by controls
 * Risk Elements
   * Threat exploits...
   * Vulnerability, resulting in...
